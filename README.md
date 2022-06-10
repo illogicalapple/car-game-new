@@ -1,2 +1,4 @@
 # car-game-new
-the new car game
+there was once an old car game 
+i didn't like it
+so im making a new one
