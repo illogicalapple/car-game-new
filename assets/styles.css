@@ -1,0 +1,20 @@
+/* please warn me before closing this tab
+ * it doesn't save */
+div.box-wrapper {
+  width: 100vw;
+  height: 100vh;  /* <------ typically this would make a bug in mobile devices       */
+  top: 0px;               /* but i don't care about mobile devices in the            */
+  left: 0px;              /* first place                                             */
+  positon: absolute;
+  text-align: center;
+}
+div.middle-box {
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  top: 10px;
+  position: /* relatively */ absolute;
+  border-radius: 5px;
+  background-color: #fffb;
+  backdrop-filter: blur(10px);
+}
