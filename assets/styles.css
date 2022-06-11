@@ -7,7 +7,7 @@ div.box-wrapper {
   left: 0px;              /* first place                                             */
   position: absolute;
   text-align: center; /* turned out to not work :[ */
-  background-color: #111;
+  background-color: #555;
 }
 div.middle-box {
   display: inline-block;
