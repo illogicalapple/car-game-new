@@ -18,7 +18,7 @@ div.middle-box {
   transform: translateX(-50%);
   position: /* relatively */ absolute;
   border-radius: 5px;
-  background-color: #fffb;
+  background-color: #fff8;
   backdrop-filter: blur(10px);
   text-align: center;
 }
