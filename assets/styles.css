@@ -12,9 +12,10 @@ div.middle-box {
   display: inline-block;
   width: 250px;
   height: 150px;
-  top: 10px;
+  top: 15px;
   position: /* relatively */ absolute;
   border-radius: 5px;
   background-color: #fffb;
   backdrop-filter: blur(10px);
+  text-align: center;
 }
