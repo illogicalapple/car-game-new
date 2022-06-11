@@ -5,14 +5,17 @@ div.box-wrapper {
   height: 100vh;  /* <------ typically this would make a bug in mobile devices       */
   top: 0px;               /* but i don't care about mobile devices in the            */
   left: 0px;              /* first place                                             */
-  positon: absolute;
-  text-align: center;
+  position: absolute;
+  text-align: center; /* turned out to not work :[ */
+  background-color: #111;
 }
 div.middle-box {
   display: inline-block;
   width: 250px;
   height: 150px;
   top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
   position: /* relatively */ absolute;
   border-radius: 5px;
   background-color: #fffb;
