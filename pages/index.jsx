@@ -16,6 +16,7 @@ export default function Home() {
             play
           </button>
         </div>
+        <div className="weapon-change">weapons should be changeified here</div>
       </div>
     </div>
   )
