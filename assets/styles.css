@@ -8,11 +8,12 @@ div.box-wrapper {
   position: absolute;
   text-align: center; /* turned out to not work :[ */
   background-color: #555;
+  --box-height: 150px;
 }
 div.middle-box {
   display: inline-block;
   width: 250px;
-  height: 150px;
+  height: var(--box-height);
   top: 15px;
   left: 50%;
   transform: translateX(-50%);
@@ -21,4 +22,8 @@ div.middle-box {
   background-color: #fff8;
   backdrop-filter: blur(10px);
   text-align: center;
+}
+div.weapon-change {
+  top: calc(15px + var(--box-height) + 15px);
+  position: absolute;
 }
