@@ -40,6 +40,7 @@ const xml = `
           <a t="overpowered" d="kill 1000 cars IN ONE GAME" r.parts="6500"></a>
         </a>
         <a t="cereal killer" d="kill a car with the legendary Cereal skin" r.parts="1000"></a>
+        <a t="spawnkill" d="kill a car within 5 seconds of them spawning" r.parts="100"></a>
       </a>
       <a t="speedy killer" d="get kill streak 3" r.parts="10">
         <a t="sanic the hedgehog" d="get kill streak 10" r.parts="100">
