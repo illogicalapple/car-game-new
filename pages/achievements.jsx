@@ -5,7 +5,7 @@ import parseString from 'xml2js'
 /* notice: if you see this code please dont look cause im not stopping you but i want things to be fun */
 /* fine if you insist a box costs 100 parts for comparison */
 /* self note: add a "resets every day" warning for daily achievements" */
-/* t = title; d = description; a = achievement; r = reward; s = image source; ns = no image source */
+/* t = title; d = description; a = achievement; r = reward; s = image source */
 const xml = `
   <a t="hello" d="join car crash" r.parts="10">
     <a t="lucky block" d="open a box" r.skin="mystery-car">
