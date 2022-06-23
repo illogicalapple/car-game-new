@@ -44,7 +44,7 @@ const xml = `
       </a>
       <a t="speedy killer" d="get kill streak 3" r.parts="10">
         <a t="sanic the hedgehog" d="get kill streak 10" r.parts="100">
-          <a t="you're scary" d="get kill streak 100" r.parts="1000"></a>
+          <a t="youre scary" d="get kill streak 100" r.parts="1000"></a>
         </a>
       </a>
     </a>
