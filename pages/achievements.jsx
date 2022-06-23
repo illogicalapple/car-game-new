@@ -10,8 +10,8 @@ const xml = `
   <a t="hello" d="join car crash" r.parts="10">
     <a t="lucky block" d="open a box" r.skin="mystery-car">
       <a t="its so rare" d="get a rare from a box" r.parts="50">
-        <a t="e p i c" d="get an epic from a box" r.parts="100">
-          <a t="the legend of the box" d="get a legendary from a box" r.parts="300"></a>
+        <a t="legendary" d="get a legendary from a box" r.parts="100">
+          <a t="mythical" d="get a mythic from a box" r.parts="300"></a>
         </a>
       </a>
       <a t="boxes and boxes" d="open three boxes" r.parts="20">
