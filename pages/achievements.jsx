@@ -78,7 +78,7 @@ export default function Achievements() {
       </Head>
       <div className="big-chonk">
         <div className="team-warning">TEAMING OR CHEATING FOR ACHIEVEMENTS IN ANY WAY IS BANNABLE (i can wipe all your data)</div>
-        <img src="assets/achievements.svg">
+        <img src="assets/achievements.svg" />
       </div>
     </div>
   )
