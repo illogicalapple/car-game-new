@@ -73,7 +73,7 @@ export default function Achievements() {
     <div>
       <Head>
         <title>achievements</title>
-        <meta name="robots" content="noindex" /> <!-- i dont want the achievements page showing up -->
+        <meta name="robots" content="noindex" /> // i dont want the achievements page showing up
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="big-chonk">
