@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import parseString from 'xml2js'
 
 /* notice: if you see this code please dont look cause im not stopping you but i want things to be fun */
@@ -78,7 +77,8 @@ export default function Achievements() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="big-chonk">
-        <div className="team-warning">TEAMING OR CHEATING FOR ACHIEVEMENTS IN ANY WAY IS BANNABLE (i can wipe all your data)</div>    
+        <div className="team-warning">TEAMING OR CHEATING FOR ACHIEVEMENTS IN ANY WAY IS BANNABLE (i can wipe all your data)</div>
+        <img src="assets/achievements.svg">
       </div>
     </div>
   )
