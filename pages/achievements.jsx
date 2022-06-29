@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script'
 import parseString from 'xml2js'
 
 /* notice: if you see this code please dont look cause im not stopping you but i want things to be fun */
@@ -76,10 +77,11 @@ export default function Achievements() {
         <title>achievements</title>
         <meta name="robots" content="noindex" /> // i dont want the achievements page showing up
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <Script src="assets/scripts/achievements.js" />
       </Head>
       <div className="big-chonk">
-        <div className="team-warning">TEAMING OR CHEATING FOR ACHIEVEMENTS IN ANY WAY IS BANNABLE (i can wipe all your data)</div>
-        <img src="assets/achievements.svg" />
+        <div className="team-warning">PLEASE DONT CHEAT</div>
+        <div className="achievement-wrapper"></div>
       </div>
     </div>
   )
