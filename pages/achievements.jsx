@@ -77,12 +77,12 @@ export default function Achievements() {
         <title>achievements</title>
         <meta name="robots" content="noindex" /> // i dont want the achievements page showing up
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <script src="assets/scripts/achievements.js" />
       </Head>
       <div className="big-chonk">
         <div className="team-warning">PLEASE DONT CHEAT</div>
         <div className="achievement-wrapper"></div>
       </div>
+      <script src="assets/scripts/achievements.js" />
     </div>
   )
 }
