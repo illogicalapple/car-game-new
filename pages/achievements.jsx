@@ -2,11 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
 import parseString from 'xml2js'
-
-/* notice: if you see this code please dont look cause im not stopping you but i want things to be fun */
-/* fine if you insist a box costs 100 parts for comparison */
-/* self note: add a "resets every day" warning for daily achievements" */
-/* t = title; d = description; a = achievement; r = reward; s = image source */
 const xml = `
   <a t="hello" d="join car crash" r.parts="10">
     <a t="lucky block" d="open a box" r.skin="mystery-car">
@@ -69,6 +64,10 @@ const xml = `
     <a t="wow thats extreme" d="play for two hours" r.parts="200"></a>
   </daily>
 `;
+var jsonAchievements;
+xml2js.parseString(xml, function(err, result) { // this is actually synchronous for some reason
+  jsonAchievements = result;
+});
 
 export default function Achievements() {
   return (
